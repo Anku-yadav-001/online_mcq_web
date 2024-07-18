@@ -13,8 +13,8 @@ export function AllRoutes(){
 
      return <>
      <Routes>
-       <Route path="/" element={<SliderComp/>}/>
-      <Route path="/home"  element={<Home/>}/>
+      <Route path="/online_mcq_web" exact element={<SliderComp/>}/>
+      {/* <Route path="/home"  element={<Home/>}/> */}
       <Route path="/about" element={<About/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/signin" element={<Signin/>}/>

@@ -17,7 +17,7 @@ function Navbar(){
      <div className="navbar-cont">
      <div style={{padding:"10px 5px",display:"flex",justifyContent:"space-evenly",width:"50%",fontFamily:"sans-serif",fontWeight:"bold",fontSize:"20px"}} className="navbar-container">
       <Link colorScheme='blue' onClick={onOpen}>Menu</Link>
-      <Link to="/home">Home</Link>
+      <Link to="/online_mcq_web">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/skill-test">Skill-Test</Link>
     </div>
