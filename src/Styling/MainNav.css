@@ -1,0 +1,23 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+.main-container{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     align-items: center;
+     /* padding: 5px; */
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bansalLogo{
+     width: 15%;
+}
+.userProfile{
+     width: 5%;
+     padding-right: 2%;
+}
+.bansalheading{
+     font-size: 20px;
+}
